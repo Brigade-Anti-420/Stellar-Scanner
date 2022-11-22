@@ -156,15 +156,13 @@ How can I use Port scanner ?
 """
     
 def main():
-
-    if choice == "1" or choice == "2" :
+    if choice == "target -self":
         trgself()
-    elif choice == '2':
+    elif choice == f'target -people':
         trgIprdm()
     elif choice == '-h' or choice == "--help":
         os.system('cls')
         helpall()
     else:
-        
         sys.exit()
 main()
